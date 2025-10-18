@@ -35,7 +35,7 @@ export default function HomeScreen() {
       {Platform.OS === 'ios' && (
         <Stack.Screen
           options={{
-            title: "Égalité & Respect",
+            title: "EgaDarras 🩷",
             headerLargeTitle: true,
           }}
         />
@@ -49,7 +49,7 @@ export default function HomeScreen() {
           showsVerticalScrollIndicator={false}
         >
           <View style={styles.header}>
-            <Text style={styles.welcomeTitle}>Bienvenue ! 👋</Text>
+            <Text style={styles.welcomeTitle}>EgaDarras 🩷</Text>
             <Text style={styles.welcomeText}>
               Explorez des sujets importants à travers des jeux, des quiz et des situations réelles.
             </Text>
