@@ -1,24 +1,30 @@
+
 import { StyleSheet, ViewStyle, TextStyle } from 'react-native';
 
 export const colors = {
-  primary: '#162456',    // Material Blue
-  secondary: '#193cb8',  // Darker Blue
-  accent: '#64B5F6',     // Light Blue
-  background: '#101824',  // Keeping dark background
-  backgroundAlt: '#162133',  // Keeping dark background
-  text: '#e3e3e3',       // Keeping light text
-  grey: '#90CAF9',       // Light Blue Grey
-  card: '#193cb8',       // Keeping dark card background
+  background: '#F8F8FF',
+  text: '#282828',
+  textSecondary: '#585858',
+  primary: '#7B68EE',
+  secondary: '#BA55D3',
+  accent: '#66CDAA',
+  card: '#FFFFFF',
+  highlight: '#E6E6FA',
 };
 
 export const buttonStyles = StyleSheet.create({
-  instructionsButton: {
+  primaryButton: {
     backgroundColor: colors.primary,
     alignSelf: 'center',
     width: '100%',
   },
-  backButton: {
-    backgroundColor: colors.backgroundAlt,
+  secondaryButton: {
+    backgroundColor: colors.secondary,
+    alignSelf: 'center',
+    width: '100%',
+  },
+  accentButton: {
+    backgroundColor: colors.accent,
     alignSelf: 'center',
     width: '100%',
   },
@@ -35,8 +41,6 @@ export const commonStyles = StyleSheet.create({
     backgroundColor: colors.background,
     width: '100%',
     height: '100%',
-    justifyContent: 'center',
-    alignItems: 'center',
   },
   content: {
     flex: 1,
@@ -52,13 +56,23 @@ export const commonStyles = StyleSheet.create({
     color: colors.text,
     marginBottom: 10
   },
+  subtitle: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: colors.text,
+    marginBottom: 8,
+  },
   text: {
     fontSize: 16,
     fontWeight: '500',
     color: colors.text,
     marginBottom: 8,
     lineHeight: 24,
-    textAlign: 'center',
+  },
+  textSecondary: {
+    fontSize: 14,
+    color: colors.textSecondary,
+    lineHeight: 20,
   },
   section: {
     width: '100%',
@@ -71,19 +85,16 @@ export const commonStyles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   card: {
-    backgroundColor: colors.backgroundAlt,
-    borderColor: colors.grey,
-    borderWidth: 1,
-    borderRadius: 10,
-    padding: 10,
+    backgroundColor: colors.card,
+    borderRadius: 16,
+    padding: 16,
     marginVertical: 8,
     width: '100%',
-    boxShadow: '0px 2px 3px rgba(0, 0, 0, 0.1)',
-    elevation: 2,
+    boxShadow: '0px 4px 12px rgba(123, 104, 238, 0.15)',
+    elevation: 3,
   },
   icon: {
     width: 60,
     height: 60,
-    tintColor: "white",
   },
 });
