@@ -3,28 +3,23 @@
   "name": "EgaDarras 🩷",
   "short_name": "EgaDarras",
   "description": "Application sur le consentement, l'égalité homme-femme et les stéréotypes",
-  "start_url": "./index.html",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#7B68EE",
-  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#FF1493",
+  "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "./assets/images/final_quest_240x240.png",
-      "sizes": "240x240",
+      "src": "/icon-192.png",
+      "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "./assets/images/natively-dark.png",
+      "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ],
-  "categories": ["education", "lifestyle"],
-  "lang": "fr-FR",
-  "dir": "ltr",
-  "scope": "./",
-  "prefer_related_applications": false
+  ]
 }
