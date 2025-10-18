@@ -1,8 +1,7 @@
-
 {
   "expo": {
-    "name": "EgaDarras 🩷",
-    "slug": "egadarras",
+    "name": "Natively",
+    "slug": "Natively",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/natively-dark.png",
@@ -15,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.egadarras",
+      "bundleIdentifier": "com.anonymous.Natively",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -26,19 +25,18 @@
         "backgroundColor": "#000000"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.egadarras"
+      "package": "com.anonymous.Natively"
     },
     "web": {
       "favicon": "./assets/images/final_quest_240x240.png",
-      "bundler": "metro",
-      "output": "static"
+      "bundler": "metro"
     },
     "plugins": [
       "expo-font",
       "expo-router",
       "expo-web-browser"
     ],
-    "scheme": "egadarras",
+    "scheme": "natively",
     "experiments": {
       "typedRoutes": true
     },
